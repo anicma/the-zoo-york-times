@@ -29,7 +29,6 @@ body {
 .navbar {
   background-color: white;
   display: block;
-  height: 36px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,14 +37,16 @@ body {
 .navbar-items-box {
   background-color: inherit;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 15px 2px;
 }
 
 .navbar-items {
   font-size: .8rem;
   font-weight: 700;
   height: 100%;
-  margin: 6px 0;
 }
 
 .svg-logo-box {
@@ -54,6 +55,45 @@ body {
 }
 
 .subject-link {
+  margin-left: 20px;
   color: black;
   text-decoration: none;
+  font-size: 0.88rem;
+}
+
+.navbar-account-btn {
+  border: 1px solid #326891;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  font-weight: 700;
+  font-size: 0.687rem;
+  padding: 11px 12px 8px;
+}
+
+.navbar-account-btn:hover {
+  background-color: #326891;
+}
+
+.navbar-account-btn:visited {
+  background-color: #326891;
+}
+
+.navbar-menu-btn {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 30px;
+  transition: ease 0.6s;
+  background-color: #fff;
+}
+
+.navbar-menu-btn:hover {
+  background-color: #f7f7f7;
+}
+
+.btn-margin-left {
+  margin-left: 5px;
 }
