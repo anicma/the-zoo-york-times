@@ -1,0 +1,99 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* libre-franklin-regular - latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/libre-franklin-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Libre Franklin'), local('LibreFranklin-Regular'),
+       url('../fonts/libre-franklin-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/libre-franklin-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/libre-franklin-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/libre-franklin-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif, Arial;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: white;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-items-box {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 15px 2px;
+}
+
+.navbar-items {
+  font-size: .8rem;
+  font-weight: 700;
+  height: 100%;
+}
+
+.svg-logo-box {
+  height: 26px;
+  width: 195px;
+}
+
+.subject-link {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 0.88rem;
+}
+
+.navbar-account-btn {
+  border: 1px solid #326891;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  font-weight: 700;
+  font-size: 0.687rem;
+  padding: 11px 12px 8px;
+}
+
+.navbar-account-btn:hover {
+  background-color: #326891;
+}
+
+.navbar-account-btn:visited {
+  background-color: #326891;
+}
+
+.navbar-menu-btn {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 30px;
+  transition: ease 0.6s;
+  background-color: #fff;
+}
+
+.navbar-menu-btn:hover {
+  background-color: #f7f7f7;
+}
+
+.btn-margin-left {
+  margin-left: 5px;
+}
