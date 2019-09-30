@@ -28,6 +28,10 @@
     url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg');
 }
 
+@font-face {
+  font-family:
+}
+
 body {
   font-family: 'Libre Franklin', sans-serif, Arial;
   font-size: 16px;
@@ -103,4 +107,17 @@ body {
 
 .btn-margin-left {
   margin-left: 5px;
+}
+
+.headline {
+  display: block;
+}
+
+.title-wrapper {
+  display: block;
+  width: 70%;
+}
+
+.article-title {
+  font
 }
