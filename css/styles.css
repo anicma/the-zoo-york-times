@@ -16,9 +16,10 @@
     url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.ttf") format("truetype"),
     url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.svg#ITC%20Cheltenham") format("svg");
 }
+
 /* libre-franklin-regular - latin */
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/libre-franklin-v4-latin-regular.eot'); /* IE9 Compat Modes */
@@ -125,6 +126,10 @@ body {
 }
 
 .article-title {
+  font-family: "ITC Cheltenham";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3.8rem;
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -151,12 +156,6 @@ body {
   width: 100%;
 }
 
-@media (min-width: 1024px) {
-  .photo-box{
-    width: 945px;
-  }
-}
-
 .photo {
   width: inherit;
 }
@@ -164,3 +163,65 @@ body {
 .title-photo {
   width: inherit;
 }
+
+.art-details-box {
+  width: 100%;
+  height: 9.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.art-details-wrapper {
+  height: 6.2rem;
+  width: 60rem;
+}
+
+.author-box {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 0.032rem;
+}
+
+.author-box > a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.published-date-box {
+  display: inline-block;
+  bottom: .5rem;
+}
+
+.social-links-box {
+  display: block;
+  width: 24rem;
+  height: 4rem;
+}
+
+ul.social-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
+@media (min-width: 1024px) {
+  .photo-box{
+    width: 945px;
+  }
+}
+
