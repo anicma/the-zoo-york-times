@@ -156,6 +156,12 @@ body {
   width: 100%;
 }
 
+@media (min-width: 1024px) {
+  .photo-box{
+    width: 945px;
+  }
+}
+
 .photo {
   width: inherit;
 }
@@ -213,15 +219,39 @@ body {
 ul.social-menu {
   display: flex;
   list-style: none;
+  height: 100%;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
-
-
-@media (min-width: 1024px) {
-  .photo-box{
-    width: 945px;
-  }
+.social-menu-item {
+  display: inline;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem 0;
+  vertical-align: middle;
+  width: 100%;
 }
 
+.social-menu-btn{
+  border: none;
+  background: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 auto;
+}
+.social-menu-btn svg {
+  height: inherit;
+  width: inherit;
+  margin: 0 auto;
+}
+
+.social-menu-share {
+  margin-right: 0;
+}
+
+.social-menu-share button{
+  border: none;
+  background: none;
+}
