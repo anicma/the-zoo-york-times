@@ -254,15 +254,15 @@ body {
   border: 0.1rem solid #c5c5c5;
 }
 
-.author-box > a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
 .author-box > a {
   color: #333;
   text-decoration: underline;
   text-decoration-color: #ccc;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .social-btn-box > a:hover {
