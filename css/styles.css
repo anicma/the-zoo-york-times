@@ -271,10 +271,6 @@ body {
   position: absolute;
 }
 
-.stats-btn-box > a:hover {
-  border: 0.1rem solid #c5c5c5;
-}
-
 .stats-btn-box > a::before {
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
@@ -297,6 +293,10 @@ body {
   left: 1.6rem;
   position: absolute;
   width: 0;
+}
+
+.stats-btn-box > a:hover {
+  border: 0.1rem solid #c5c5c5;
 }
 
 .stats-btn-box > a {
