@@ -236,6 +236,17 @@ body {
   border-radius: 0.4rem;
 }
 
+.author-box > a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 .social-btn-box > a {
   cursor: pointer;
   display: flex;
@@ -252,17 +263,6 @@ body {
 
 .stats-btn-box > a:hover {
   border: 0.1rem solid #c5c5c5;
-}
-
-.author-box > a {
-  color: #333;
-  text-decoration: underline;
-  text-decoration-color: #ccc;
-}
-
-.author-box > a:hover {
-  color: #000;
-  text-decoration: none;
 }
 
 .social-btn-box > a:hover {
