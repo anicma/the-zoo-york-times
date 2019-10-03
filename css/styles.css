@@ -185,11 +185,6 @@ body {
   width: 60rem;
 }
 
-.social-btn-box > a:hover {
-  background-color: #fff;
-  border: 0.2rem solid #eee;
-}
-
 .social-btn-box > a {
   cursor: pointer;
   display: flex;
@@ -202,6 +197,11 @@ body {
   text-decoration: none;
   border-radius: 50%;
   background-color: #eee;
+}
+
+.social-btn-box > a:hover {
+  background-color: #fff;
+  border: 0.2rem solid #eee;
 }
 
 .social-btn-box {
@@ -259,18 +259,6 @@ body {
   height: 2.7rem;
 }
 
-.stats-btn-box > a:hover::before {
-  border-color: rgb(197, 197, 197) transparent;
-  border-style: solid;
-  bottom: -0.2rem;
-  border-width: 0.6rem 0 0 0.8rem;
-  content: "";
-  display: block;
-  left: 1.5rem;
-  width: 0;
-  position: absolute;
-}
-
 .stats-btn-box > a::before {
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
@@ -293,6 +281,18 @@ body {
   left: 1.6rem;
   position: absolute;
   width: 0;
+}
+
+.stats-btn-box > a:hover::before {
+  border-color: rgb(197, 197, 197) transparent;
+  border-style: solid;
+  bottom: -0.2rem;
+  border-width: 0.6rem 0 0 0.8rem;
+  content: "";
+  display: block;
+  left: 1.5rem;
+  width: 0;
+  position: absolute;
 }
 
 .stats-btn-box > a:hover {
