@@ -242,11 +242,6 @@ body {
   text-decoration-color: #ccc;
 }
 
-.author-box > a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
 .social-btn-box > a {
   cursor: pointer;
   display: flex;
@@ -259,6 +254,11 @@ body {
   text-decoration: none;
   border-radius: 50%;
   background-color: #eee;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .stats-btn-box > a:hover {
