@@ -185,10 +185,32 @@ body {
   width: 60rem;
 }
 
-.author-box {
-  color: #333;
-  font-weight: bold;
-  letter-spacing: 0.032rem;
+.social-btn-box > a:hover {
+  background-color: #fff;
+  border: 0.2rem solid #eee;
+}
+
+.social-btn-box > a {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.social-btn-box {
+  width: 2.7rem;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .author-box > a {
@@ -197,9 +219,10 @@ body {
   text-decoration-color: #ccc;
 }
 
-.author-box > a:hover {
-  color: #000;
-  text-decoration: none;
+.author-box {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 0.032rem;
 }
 
 .stats-box {
@@ -234,29 +257,6 @@ body {
 
 .social-height {
   height: 2.7rem;
-}
-
-.social-btn-box > a:hover {
-  background-color: #fff;
-  border: 0.2rem solid #eee;
-}
-
-.social-btn-box > a {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 2.7rem;
-  height: 2.7rem;
-  color: #000;
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: #eee;
-}
-
-.social-btn-box {
-  width: 2.7rem;
 }
 
 .stats-btn-box > a:hover::before {
