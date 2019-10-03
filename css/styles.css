@@ -128,7 +128,7 @@ body {
 }
 
 .article-title {
-  font-family: "ITC Cheltenham";
+  font-family: "ITC Cheltenham", "times new roman", times, serif;
   font-style: italic;
   font-weight: bold;
   font-size: 3.8rem;
@@ -142,7 +142,7 @@ body {
 
 .caption {
   color: grey;
-  font-family: "ITC Cheltenham";
+  font-family: "ITC Cheltenham", "times new roman", times, serif;
   font-size: 1.56rem;
   font-weight: 600;
 }
@@ -152,7 +152,7 @@ body {
   font-size: 1.3rem;
 }
 
-.photo-box{
+.photo-box {
   display: block;
   margin: 2.5rem auto 0 auto;
   width: 100%;
@@ -343,11 +343,6 @@ ul.social-menu {
   background: none;
   height: 1.5rem;
   width: 1.5rem;
-  margin: 0 auto;
-}
-.social-menu-btn svg {
-  height: inherit;
-  width: inherit;
   margin: 0 auto;
 }
 
