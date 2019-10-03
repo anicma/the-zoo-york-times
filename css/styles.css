@@ -7,9 +7,21 @@
   box-sizing: border-box;
 }
 
+/* Cheltenham font family */
+@font-face {
+  font-family: "ITC Cheltenham";
+  src: url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/88e9a8c5df7ede60164bdce25bd4a641.svg#ITC%20Cheltenham") format("svg");
+}
+
 /* libre-franklin-regular - latin */
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/libre-franklin-v4-latin-regular.eot'); /* IE9 Compat Modes */
@@ -28,9 +40,14 @@
     url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg');
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Libre Franklin', sans-serif, Arial;
-  font-size: 16px;
+  font-size: 1.6rem;
+  margin-top: 4.6rem;
 }
 
 .navbar {
@@ -46,38 +63,38 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e2e2e2;
-  padding: 4px 15px 2px;
+  border-bottom: 0.1rem solid #e2e2e2;
+  padding: 0.4rem 1.5rem 0.2rem;
 }
 
 .navbar-items {
-  font-size: 0.8rem;
+  font-size: 1.28rem;
   font-weight: 700;
   height: 100%;
 }
 
 .svg-logo-box {
-  height: 26px;
-  width: 195px;
+  height: 2.6rem;
+  width: 19.5rem;
 }
 
 .subject-link {
-  margin-left: 20px;
+  margin-left: 2rem;
   color: black;
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 1.41rem;
 }
 
 .navbar-account-btn {
-  border: 1px solid #326891;
+  border: 0.1rem solid #326891;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 0.3rem;
   transition: ease 0.6s;
   background-color: #6288a5;
   font-weight: 700;
-  font-size: 0.687rem;
-  padding: 11px 12px 8px;
+  font-size: 1.1rem;
+  padding: 1.1rem 1.2rem 0.8rem;
 }
 
 .navbar-account-btn:hover {
@@ -91,8 +108,8 @@ body {
 .navbar-menu-btn {
   cursor: pointer;
   border: none;
-  height: 30px;
-  width: 30px;
+  height: 3rem;
+  width: 3rem;
   transition: ease 0.6s;
   background-color: #fff;
 }
@@ -102,5 +119,238 @@ body {
 }
 
 .btn-margin-left {
-  margin-left: 5px;
+  margin-left: 0.5rem;
+}
+
+.headline {
+  display: block;
+  margin-top: 10rem;
+}
+
+.article-title {
+  font-family: "ITC Cheltenham", "times new roman", times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3.8rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.title-wrapper {
+  display: inline-block;
+}
+
+.caption {
+  color: grey;
+  font-family: "ITC Cheltenham", "times new roman", times, serif;
+  font-size: 1.56rem;
+  font-weight: 600;
+}
+
+.credit {
+  color: grey;
+  font-size: 1.3rem;
+}
+
+.photo-box {
+  display: block;
+  margin: 2.5rem auto 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .photo-box {
+    width: 945px;
+  }
+}
+
+.photo {
+  width: inherit;
+}
+
+.title-photo {
+  width: inherit;
+}
+
+.art-details-box {
+  width: 100%;
+  height: 9.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.art-details-wrapper {
+  height: 6.2rem;
+  width: 60rem;
+}
+
+.stats-btn-box > a::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -0.2rem;
+  border-width: 0.6rem 0 0 0.8rem;
+  content: "";
+  display: block;
+  left: 1.5rem;
+  width: 0;
+  position: absolute;
+}
+
+.stats-btn-box > a::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 0.6rem 0 0 0.6rem;
+  bottom: -0.1rem;
+  content: "";
+  display: block;
+  left: 1.6rem;
+  position: absolute;
+  width: 0;
+}
+
+.stats-btn-box > a:hover::before {
+  border-color: rgb(197, 197, 197) transparent;
+  border-style: solid;
+  bottom: -0.2rem;
+  border-width: 0.6rem 0 0 0.8rem;
+  content: "";
+  display: block;
+  left: 1.5rem;
+  width: 0;
+  position: absolute;
+}
+
+.stats-btn-box > a {
+  cursor: pointer;
+  display: flex;
+  color: #000;
+  min-width: 26px;
+  min-height: 14px;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #666;
+  width: 3.6rem;
+  height: 2.3rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+}
+
+.author-box > a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.social-btn-box > a {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.stats-btn-box > a:hover {
+  border: 0.1rem solid #c5c5c5;
+}
+
+.social-btn-box > a:hover {
+  background-color: #fff;
+  border: 0.2rem solid #eee;
+}
+
+.social-btn-box {
+  width: 2.7rem;
+}
+
+.author-box {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 0.032rem;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.published-date-box {
+  display: inline;
+  font-size: 1.2rem;
+  height: 100%;
+  margin-bottom: 1.1rem;
+}
+
+.social-links-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24.2rem;
+  height: 4rem;
+}
+
+.bm-btn-box {
+  width: 1.6rem;
+}
+
+.stats-btn-box {
+  width: 3.6rem;
+  position: relative;
+}
+
+.social-height {
+  height: 2.7rem;
+}
+
+.comment-btn {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+ul.social-menu {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-menu-item {
+  display: inline;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.social-menu-btn {
+  border: none;
+  background: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 auto;
+}
+
+.social-menu-share {
+  margin-right: 0;
+}
+
+.social-menu-share button {
+  border: none;
+  background: none;
 }
