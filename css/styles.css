@@ -185,80 +185,6 @@ body {
   width: 60rem;
 }
 
-.social-btn-box > a {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 2.7rem;
-  height: 2.7rem;
-  color: #000;
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: #eee;
-}
-
-.author-box > a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-.social-btn-box > a:hover {
-  background-color: #fff;
-  border: 0.2rem solid #eee;
-}
-
-.social-btn-box {
-  width: 2.7rem;
-}
-
-.author-box > a {
-  color: #333;
-  text-decoration: underline;
-  text-decoration-color: #ccc;
-}
-
-.author-box {
-  color: #333;
-  font-weight: bold;
-  letter-spacing: 0.032rem;
-}
-
-.stats-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.published-date-box {
-  display: inline;
-  font-size: 1.2rem;
-  height: 100%;
-  margin-bottom: 1.1rem;
-}
-
-.social-links-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 24.2rem;
-  height: 4rem;
-}
-
-.bm-btn-box {
-  width: 1.6rem;
-}
-
-.stats-btn-box {
-  width: 3.6rem;
-  position: relative;
-}
-
-.social-height {
-  height: 2.7rem;
-}
-
 .stats-btn-box > a::before {
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
@@ -312,6 +238,80 @@ body {
   height: 2.3rem;
   text-decoration: none;
   border-radius: 0.4rem;
+}
+
+.social-btn-box > a {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.author-box > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.author-box > a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.social-btn-box > a:hover {
+  background-color: #fff;
+  border: 0.2rem solid #eee;
+}
+
+.social-btn-box {
+  width: 2.7rem;
+}
+
+.author-box {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 0.032rem;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.published-date-box {
+  display: inline;
+  font-size: 1.2rem;
+  height: 100%;
+  margin-bottom: 1.1rem;
+}
+
+.social-links-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24.2rem;
+  height: 4rem;
+}
+
+.bm-btn-box {
+  width: 1.6rem;
+}
+
+.stats-btn-box {
+  width: 3.6rem;
+  position: relative;
+}
+
+.social-height {
+  height: 2.7rem;
 }
 
 .comment-btn {
