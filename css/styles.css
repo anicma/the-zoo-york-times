@@ -240,6 +240,11 @@ body {
   height: 2.7rem;
 }
 
+.social-btn-box > a:hover {
+  background-color: #fff;
+  border: 0.2rem solid #eee;
+}
+
 .social-btn-box > a {
   cursor: pointer;
   display: flex;
@@ -252,26 +257,6 @@ body {
   text-decoration: none;
   border-radius: 50%;
   background-color: #eee;
-}
-
-.social-btn-box > a:hover {
-  background-color: #fff;
-  border: 0.2rem solid #eee;
-}
-
-.stats-btn-box > a {
-  cursor: pointer;
-  display: flex;
-  color: #000;
-  min-width: 26px;
-  min-height: 14px;
-  align-items: center;
-  justify-content: center;
-  border: 0.1rem solid #666;
-  width: 3.6rem;
-  height: 2.3rem;
-  text-decoration: none;
-  border-radius: 0.4rem;
 }
 
 .stats-btn-box > a:hover {
@@ -312,6 +297,21 @@ body {
   left: 1.6rem;
   position: absolute;
   width: 0;
+}
+
+.stats-btn-box > a {
+  cursor: pointer;
+  display: flex;
+  color: #000;
+  min-width: 26px;
+  min-height: 14px;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #666;
+  width: 3.6rem;
+  height: 2.3rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
 }
 
 .comment-btn {
