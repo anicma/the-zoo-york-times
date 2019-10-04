@@ -312,6 +312,24 @@ body {
   height: 4rem;
 }
 
+@media (max-width: 650px) {
+  .art-details-wrapper {
+    width: 95%;
+  }
+
+  .social-links-box {
+    width: 15.5rem;
+  }
+
+  .email-box {
+    display: none;
+  }
+
+  .share-box {
+    display: none;
+  }
+}
+
 .bm-btn-box {
   width: 1.6rem;
 }
@@ -410,26 +428,17 @@ ul.social-menu {
     float: right;
   }
 }
+
 @media (max-width:640px) {
   .body-wrapper {
     width: 100%;
   }
 
   .body-doc {
-    margin: 0 20px 0 20px;
-    width: 100%;
+    margin: 0 auto;
+    width: 95%;
   }
 }
-/*
-@media (min-width:740px) {
-}
-
-@media (min-width:1024px) {
-}
-
-@media (min-width:1440px) {
-}
-*/
 
 .body-doc p {
   margin: 0 0 1.5rem 0;
