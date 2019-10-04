@@ -40,6 +40,17 @@
     url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg');
 }
 
+/*Impreial font family*/
+@font-face {
+  font-family: "Imperial";
+  src: url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.eot");
+  src: url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.svg#Imperial") format("svg");
+}
+
 html {
   font-size: 62.5%;
 }
@@ -353,4 +364,52 @@ ul.social-menu {
 .social-menu-share button {
   border: none;
   background: none;
+}
+
+.main-art-box {
+  color: #333;
+  display: flex;
+  font-family: "Imperial";
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  width: 117rem;
+}
+
+@media (max-width: 1280px) {
+  .main-art-box {
+    width: 110rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .main-art-box {
+    width: 94.5rem;
+  }
+}
+
+.body-doc {
+  margin-left: calc((100% - 60rem)/2);
+  width: 60rem;
+}
+
+@media (max-width: 1024px) {
+  .body-doc {
+    width: 100%;
+  }
+}
+
+.body-doc p {
+  margin: 0 0 1.5rem 0;
+  width: 100%;
+}
+
+.body-doc a {
+  color: #326891;
+}
+
+.news-related-box {
+  margin-left: auto;
+  margin-right: 0;
+  width: 21rem;
 }
