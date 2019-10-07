@@ -498,3 +498,32 @@ ul.social-menu {
 .body-doc a {
   color: #326891;
 }
+
+.img-example {
+  display: flex;
+  height: 57.6rem;
+  justify-content: center;
+}
+
+.inflation {
+  width: 94.5rem;
+}
+
+.background-img {
+  position: absolute;
+  z-index: -1;
+}
+
+.desc-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 94.5rem;
+}
+
+.box {
+  font-family: "ITC Cheltenham";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
