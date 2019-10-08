@@ -225,6 +225,12 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  .photo-box {
+    width: 120rem;
+  }
+}
+
 .photo {
   width: inherit;
 }
@@ -442,6 +448,13 @@ ul.social-menu {
   margin: 0 auto;
 }
 
+@media (max-width: 740px) {
+  .main-art-box {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+
 .body-wrapper {
   display: flex;
   width: 86.4%;
@@ -597,7 +610,7 @@ ul.social-menu {
   width: 100%;
 }
 
-.video-caption {
+.art-caption {
   color: #888;
   margin: 1rem 2rem 0 0;
   text-align: left;
@@ -605,13 +618,13 @@ ul.social-menu {
   letter-spacing: 0.016rem;
 }
 
-.video-caption-desc {
+.art-caption-desc {
   margin-right: 0.7rem;
   font-size: 1.2rem;
   font-family: "Imperial";
 }
 
-.video-caption-credit {
+.art-caption-credit {
   font-size: 1rem;
 }
 
@@ -623,20 +636,50 @@ ul.social-menu {
 
 .telescope-figure {
   display: flex;
+  margin: 3.7rem 0;
   width: 100%;
   justify-content: center;
 }
 
 .telescope-img-box {
   width: 60rem;
+
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .telescope-img-box {
     padding: 0 2rem;
   }
 }
 
+@media (min-width: 1440px) {
+  .telescope-img-box {
+    width: 72rem;
+  }
+
+  .telescope-fill {
+    display: none;
+  }
+}
+
 .telescope-img {
   width: 100%;
+}
+.comment-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.art-details {
+  display: block;
+  margin: 0 2rem 2rem 2rem;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+
+  .art-details {
+    width: 60rem;
+  }
 }
