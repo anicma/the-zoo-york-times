@@ -537,8 +537,8 @@ ul.social-menu {
 
 .desc-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 1rem;
   min-width: 72rem;
   height: 64.8rem;
@@ -619,4 +619,24 @@ ul.social-menu {
   .video-box {
     width: 60rem;
   }
+}
+
+.telescope-figure {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.telescope-img-box {
+  width: 60rem;
+}
+
+@media (min-width: 600px) {
+  .telescope-img-box {
+    padding: 0 2rem;
+  }
+}
+
+.telescope-img {
+  width: 100%;
 }
