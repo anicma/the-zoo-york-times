@@ -40,11 +40,12 @@
     url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg');
 }
 
-/*Impreial font family*/
+/* Impreial font family */
 @font-face {
   font-family: "Imperial";
   src: url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.eot");
-  src: url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.woff2") format("woff2"),
     url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/96880a6e9325deaf192d8c9f268c6f47.ttf") format("truetype"),
@@ -84,7 +85,7 @@ body {
   height: 100%;
 }
 
-.menu-box{
+.menu-box {
   display: none;
 }
 
@@ -144,7 +145,6 @@ body {
   display: none;
 }
 
-
 @media (min-width: 600px) {
   .menu-box {
     display: initial;
@@ -180,8 +180,7 @@ body {
   }
 }
 
-/*END of navbar Media queries
-*/
+/* END of navbar Media queries */
 .headline {
   display: block;
   margin-top: 10rem;
@@ -441,7 +440,7 @@ ul.social-menu {
 
 .main-art-box {
   color: #333;
-  font-family: "Imperial";
+  font-family: "Imperial", sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   margin: 0 auto;
@@ -461,7 +460,7 @@ ul.social-menu {
 }
 
 .body-doc {
-  margin-left: calc((100% - 60rem)/2);
+  margin-left: calc((100% - 60rem) / 2);
   margin-right: 0;
   width: 60rem;
 }
@@ -475,7 +474,7 @@ ul.social-menu {
   width: 100%;
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .news-related-box {
     display: flex;
     flex-direction: row;
@@ -491,7 +490,7 @@ ul.social-menu {
   }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .body-wrapper {
     width: 100%;
   }
@@ -524,7 +523,7 @@ ul.social-menu {
 }
 
 .img-example-header {
-  font-family: "ITC Cheltenham";
+  font-family: "ITC Cheltenham", Arial;
   margin-bottom: 1.7rem;
   display: block;
   width: 100%;
@@ -535,7 +534,7 @@ ul.social-menu {
   width: 100%;
   display: block;
   font-size: 2rem;
-  font-family: "ITC Cheltenham";
+  font-family: "ITC Cheltenham", Arial;
   font-weight: bolder;
 }
 
@@ -593,13 +592,12 @@ ul.social-menu {
   height: 4rem;
 }
 
-
 .video-box {
   width: 100%;
   margin: 4.3rem auto;
 }
 
-.video-player{
+.video-player {
   width: inherit;
   height: 31.9rem;
 }
@@ -620,7 +618,7 @@ ul.social-menu {
 .art-caption-desc {
   margin-right: 0.7rem;
   font-size: 1.2rem;
-  font-family: "Imperial";
+  font-family: "Imperial", Arial;
 }
 
 .art-caption-credit {
@@ -642,7 +640,6 @@ ul.social-menu {
 
 .telescope-img-box {
   width: 60rem;
-
 }
 
 @media (max-width: 600px) {
@@ -680,7 +677,7 @@ ul.social-menu {
   height: 2.7rem;
 }
 
-.comment-btn {
+.read-comment-btn {
   border: 1px solid rgb(50, 104, 145);
   background: #6288a5;
   box-shadow: none;
@@ -716,7 +713,7 @@ ul.social-menu {
 
 .copy-details {
   color: #8e8e8e;
-  font-family: "Libre Franklin";
+  font-family: "Libre Franklin", sans-serif;
   font-size: 1.05rem;
   font-weight: 500;
   line-height: 1.6rem;
