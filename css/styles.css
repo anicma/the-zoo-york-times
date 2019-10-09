@@ -612,6 +612,7 @@ ul.social-menu {
 }
 
 .video-embed {
+  border: none;
   height: 100%;
   width: 100%;
 }
