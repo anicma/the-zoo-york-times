@@ -352,9 +352,10 @@
       <section class="nyt-sections">
         <section class="section-box">
           <header class="section-title">
-            <a class="section-title-btn" id="news" href="#news">news</a>
+            <a class="section-title-btn" onclick="accordion('new')" id="new" href="#news">news</a>
+            <span class="section-title-text">NEWS</span>
           </header>
-          <ul class="news-subgroup">
+          <ul class="news-subgroup" id="new-subgroup">
             <li><a class="subsection-link" href="https://www.nytimes.com">home page</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/world">world</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/us">U.S.</a></li>
@@ -377,9 +378,9 @@
           <!-- end news-accordion -->
 
           <header class="section-title">
-            <a class="section-title-btn" id="opinion" href="#opinion">opinion</a>
+            <a class="section-title-btn" id="opinion" onclick="accordion('opinion')" href="#opinion">opinion</a>
           </header>
-          <ul class="news-subgroup">
+          <ul class="news-subgroup" id="opinion-subgroup">
             <li><a class="subsection-link" href="https://www.nytimes.com">home page</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/world">world</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/us">U.S.</a></li>
@@ -402,9 +403,9 @@
           <!-- end opinion-accordion -->
 
           <header class="section-title">
-            <a class="section-title-btn" id="arts" href="#arts">arts</a>
+            <a class="section-title-btn" id="arts" onclick="accordion('arts')" href="#arts">arts</a>
           </header>
-          <ul class="news-subgroup">
+          <ul class="news-subgroup" id="arts-subgroup">
             <li><a class="subsection-link" href="https://www.nytimes.com">home page</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/world">world</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/us">U.S.</a></li>
@@ -427,9 +428,9 @@
           <!-- end arts-accordion -->
 
           <header class="section-title">
-            <a class="section-title-btn" id="living" href="#living">living</a>
+            <a class="section-title-btn" id="living" onclick="accordion('living')" href="#living">living</a>
           </header>
-          <ul class="news-subgroup">
+          <ul class="news-subgroup" id="living-subgroup">
             <li><a class="subsection-link" href="https://www.nytimes.com">home page</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/world">world</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/us">U.S.</a></li>
@@ -452,9 +453,9 @@
           <!-- end living-accordion -->
 
           <header class="section-title">
-            <a class="section-title-btn" id="listing" href="#listing">listing & more</a>
+            <a class="section-title-btn" id="listing" onclick="accordion('listing')" href="#listing">listing & more</a>
           </header>
-          <ul class="news-subgroup">
+          <ul class="news-subgroup" id="listing-subgroup">
             <li><a class="subsection-link" href="https://www.nytimes.com">home page</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/world">world</a></li>
             <li><a class="subsection-link" href="https://www.nytimes.com/section/us">U.S.</a></li>
@@ -481,5 +482,6 @@
     <!-- end navbar-footer-box -->
 
   </main>
+  <script src="script/scripts.js"></script>
 </body>
 </html>
