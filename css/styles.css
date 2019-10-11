@@ -250,6 +250,20 @@ body {
   width: 60rem;
 }
 
+.terms-link {
+  display: inline;
+}
+
+.terms-link a {
+  color: #8e8e8e;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.terms-nyt-link a {
+  padding: 0;
+}
+
 .body-doc a {
   color: #326891;
 }
@@ -853,23 +867,9 @@ ul.social-menu {
   text-align: center;
 }
 
-.terms-link {
-  display: inline;
-}
-
-.terms-link a {
-  color: #8e8e8e;
-  text-decoration: none;
-  padding: 0 0.5rem;
-}
-
 .terms-nyt-link {
   display: block;
   width: 100%;
-}
-
-.terms-nyt-link a {
-  padding: 0;
 }
 
 .terms-link a:hover {
