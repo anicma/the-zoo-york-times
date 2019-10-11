@@ -254,7 +254,7 @@ body {
   display: inline;
 }
 
-.terms-link a {
+.terms-anchor {
   color: #8e8e8e;
   text-decoration: none;
   padding: 0 0.5rem;
@@ -268,15 +268,15 @@ body {
   color: #326891;
 }
 
-.terms-link a:hover {
+.terms-anchor:hover {
   text-decoration: underline #8e8e8e;
 }
 
-.copy-details > span > a {
+.copy-details-a {
   color: #8e8e8e;
 }
 
-.copy-details > span > a:hover {
+.copy-details-a:hover {
   color: #8e8e8e;
   text-decoration: none;
 }
@@ -317,7 +317,7 @@ body {
   position: absolute;
 }
 
-.stats-btn-box > a {
+.stats-btn-box-a {
   cursor: pointer;
   display: flex;
   color: #000;
@@ -338,7 +338,7 @@ body {
   text-decoration-color: #ccc;
 }
 
-.social-btn-box > a {
+.social-btn-box-a {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -357,11 +357,11 @@ body {
   text-decoration: none;
 }
 
-.stats-btn-box > a:hover {
+.stats-btn-box-a:hover {
   border: 0.1rem solid #c5c5c5;
 }
 
-.social-btn-box > a:hover {
+.social-btn-box-a:hover {
   background-color: #fff;
   border: 0.2rem solid #eee;
 }
