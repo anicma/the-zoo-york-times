@@ -757,18 +757,21 @@ ul.social-menu {
   border-bottom: 1px solid rgb(226, 226, 226);
   display: block;
   margin: 0 auto;
-  height: 41rem;
-  width: 121rem;
+  width: 95%;
 }
 
 .navbar-footer-header {
   margin-top: 2.8rem;
   color: white;
   display: flex;
-  overflow: auto;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-header-link {
+  font-size: 1.1rem;
+  color: #6288a5;
 }
 
 .section-title {
@@ -791,7 +794,7 @@ ul.social-menu {
 }
 
 .news-subgroup {
-  display: grid;
+  display: none;
   list-style: none;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1rem;
@@ -833,14 +836,40 @@ ul.social-menu {
   display: none;
 }
 
+.terms-footer {
+  display: block;
+  padding: 0.9rem 0 2.5rem 0;
+  font-size: 1.1rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.termslist {
+  list-style: none;
+  font-size: inherit;
+  display: block;
+}
+
+.terms-link {
+  display: inline;
+}
+
+.terms-nyt-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
 @media (min-width: 1150px) {
   .section-box {
     display: grid;
     grid-template-columns: repeat(5, 1fr) 21.5rem;
-    grid-template-rows: 41rem;
-    margin-top: 0.5rem;
+    grid-template-rows: 1fr;
+    margin: 0.5rem auto;
     grid-gap: 4.5rem;
     width: 100%;
+    max-width: 120rem;
   }
 
   .section-title {
@@ -851,13 +880,14 @@ ul.social-menu {
   }
 
   .section-title-btn {
+    color: black !important;
     pointer-events: none;
     padding-top: 0;
     display: inline;
   }
 
   .news-subgroup {
-    display: grid;
+    display: grid !important;
     grid-template-rows: repeat(17, 1fr);
     grid-template-columns: 1fr;
     width: 100%;
@@ -882,13 +912,9 @@ ul.social-menu {
   }
 
   .navbar-footer-header {
-    margin-top: 0;
+    max-width: 120rem;
+    margin: 0 auto;
     height: 5.2rem;
-  }
-
-  .footer-header-link {
-    font-size: 1.1rem;
-    color: #6288a5;
   }
 
   .navbar-footer-box {
@@ -931,10 +957,6 @@ ul.social-menu {
 
   .other-channel-link:hover {
     text-decoration: underline #000;
-  }
-
-  .navbar-footer-box {
-    height: 4rem;
   }
 
   .news-subgroup > li:nth-last-child(-n+4) {
