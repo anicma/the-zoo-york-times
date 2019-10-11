@@ -268,6 +268,10 @@ body {
   color: #326891;
 }
 
+.terms-link a:hover {
+  text-decoration: underline #8e8e8e;
+}
+
 .copy-details > span > a {
   color: #8e8e8e;
 }
@@ -872,10 +876,6 @@ ul.social-menu {
   width: 100%;
 }
 
-.terms-link a:hover {
-  text-decoration: underline #8e8e8e;
-}
-
 @media (min-width: 1150px) {
   .box-divider {
     border: 0;
@@ -969,7 +969,7 @@ ul.social-menu {
     margin-top: 1rem;
     list-style: none;
     font-size: 1.1rem;
-    font-color: #333;
+    color: #333;
     height: 10.8rem;
   }
 
