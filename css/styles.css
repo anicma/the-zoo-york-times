@@ -911,7 +911,7 @@ ul.social-menu {
 
   .news-subgroup {
     display: grid !important;
-    grid-template-rows: repeat(17, 1fr);
+    grid-template-rows: repeat(13, 1fr);
     grid-template-columns: 1fr;
     width: 100%;
     font-size: 1.3rem;
@@ -955,7 +955,7 @@ ul.social-menu {
     margin-top: 1rem;
     list-style: none;
     font-size: 1.1rem;
-    font-color: #333;
+    color: #333;
     height: 7.5rem;
   }
 
@@ -984,10 +984,6 @@ ul.social-menu {
 
   .news-subgroup li:nth-last-child(-n+4) {
     display: none;
-  }
-
-  .news-subgroup {
-    grid-template-rows: repeat(13, 1fr);
   }
 
   .subscribe {
